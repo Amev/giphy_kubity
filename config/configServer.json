@@ -1,0 +1,4 @@
+{
+	"port": 9090,
+	"serviceURL": "http://localhost:9090/"
+}

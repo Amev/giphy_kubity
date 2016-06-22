@@ -1,0 +1,56 @@
+{
+  "name": "giphy_kubity",
+  "version": "1.0.0",
+  "description": "Google Trends displayed with Giphy",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && gulp babel && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amev/giphy_kubity.git"
+  },
+  "keywords": [
+    "Google",
+    "Trends",
+    "Giphy"
+  ],
+  "author": "Amev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amev/giphy_kubity/issues"
+  },
+  "homepage": "https://github.com/Amev/giphy_kubity#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cls-bluebird": "^1.0.1",
+    "compression": "^1.6.2",
+    "continuation-local-storage": "^3.1.7",
+    "express": "^4.13.4",
+    "fluxible": "^1.1.0",
+    "fluxible-addons-react": "^0.2.8",
+    "fluxible-router": "^0.4.14",
+    "google-trends-api": "^1.2.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "serialize-javascript": "^1.3.0",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
